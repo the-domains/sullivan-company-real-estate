@@ -1,0 +1,61 @@
+typography_spectrum: 0.781362
+color:
+  saturation: 0.7078853
+  brandStrength: 1
+  lightness: 0.8136201
+  brandColors:
+    - '#FFFFFF'
+    - '#6BB3FF'
+    - '#12161F'
+    - '#919890'
+    - '#D7B67E'
+  rhythmicContrast: 0.546595
+github: true
+opengraph:
+  appId: 'https://www.facebook.com/sullivanandcompany/'
+layout_spectrum: 0.9767025
+author:
+  name: Jean M Sullivan
+logo: >-
+  https://the-grid-user-content.s3-us-west-2.amazonaws.com/d78f03de-2d9f-4e37-a1fa-87b862bde161.png
+name: Sullivan & Company Real Estate
+navigation:
+  - name: Waterfront on Lake George
+    id: cdaf8cb6-119c-4aa0-86ca-82a2ffe0f220
+    type: content
+  - name: 'Antique Home with Waterfront '
+    id: d5f44935-4a2f-4589-853b-b970858b3d56
+    type: content
+  - name: Homes for sale
+    url: 'http://www.sullivanandcompanyrealestate.com/index.asp'
+    type: external
+  - name: Town of Brimfield
+    url: 'http://brimfieldma.org/Pages/index'
+    type: external
+  - name: Town of Sturbridge
+    url: 'http://www.town.sturbridge.ma.us/Public_Documents/index'
+    type: external
+favicon: >-
+  https://the-grid-user-content.s3-us-west-2.amazonaws.com/583cbdea-1b95-47b4-b464-bade6d88e9d7.png
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+title: Sullivan & Company
+content: []
+description: Serving Brimfield & Sturbridge area
+purpose:
+  - type: contact
+    url: homes@sullcore.com
+    label: homes@sullcore.com
+  - type: contact
+    url: 'tel:413 245-1062'
+    label: Call 413 245-1062
